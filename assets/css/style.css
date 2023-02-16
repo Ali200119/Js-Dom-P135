@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: gray;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+main .container {
+  width: 80%;
+}
+main .container .header {
+  margin-top: 100px;
+}
+main .container .header h1 {
+  font-size: 40px;
+}
+main .container .input {
+  margin-top: 15px;
+}
+main .container .input input {
+  height: 30px;
+  width: 50%;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+main .container button {
+  margin-top: 15px;
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  width: 100px;
+  border: 0;
+  font-size: 17px;
+  cursor: pointer;
+}
+main .container .list ul {
+  list-style: none;
+}
+main .container .list ul li {
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
